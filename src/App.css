@@ -1,0 +1,57 @@
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  --antd-wave-shadow-color: black;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  font-family: "Alata", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: lightcyan;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  color: black !important;
+  border-color: black !important;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: lightseagreen !important;
+}
+
+.ant-layout-header,
+.ant-layout-footer {
+  background: lightseagreen !important;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Alata", sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Alata", sans-serif;
+  align-items: center;
+}
